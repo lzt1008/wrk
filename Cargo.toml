@@ -1,0 +1,19 @@
+[package]
+name = "wrk"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1"
+clap = "2"
+humansize = "2.0.0"
+humantime = "2.1"
+tokio = { version = "1", features = ["full"] }
+native-tls = { version = "0.2", features = ["alpn"] }
+hyper = { version = "0.14", features = ["full"] }
+tower = { version = "0.4", features = ["util"] }
+tokio-native-tls = "0.3"
+colored = "2"
+futures-util = "0.3"
+http = "0.2"
+pin-project-lite = "0.2"
